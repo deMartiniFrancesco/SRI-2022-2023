@@ -139,3 +139,7 @@ lib/
 .idea/misc.xml
 .idea/workspace.xml
 .idea/inspectionProfiles/Project_Default.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/modules.xml
+.idea/vcs.xml
+SRI-2022-2023.iml
