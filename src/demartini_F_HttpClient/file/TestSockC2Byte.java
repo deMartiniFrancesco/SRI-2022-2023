@@ -32,7 +32,7 @@ public class TestSockC2Byte {
                 //dOut.flush();
                 
                 len=dIn.readInt();
-                byte b[]=new byte[200];
+                byte[] b =new byte[200];
                 dIn.read(b,0,len);
                 System.out.println("-->" + len +" "+new String(b));// scrivi quello che leggi dal socket
                 
@@ -40,7 +40,7 @@ public class TestSockC2Byte {
             }
             cs.close();
         } catch (IOException ex) {
-            System.out.println(ex);
+            ex.printStackTrace();
         }
 
     }
